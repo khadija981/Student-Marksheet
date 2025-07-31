@@ -1,0 +1,42 @@
+# 📝 Responsive Student Marksheet System
+
+A clean, responsive web application that allows educators to input marks for multiple students and automatically generate totals, percentages, and grades. This tool provides a fast, browser-based solution to manage academic performance data for small classes or training sessions.
+
+---
+
+## 🚀 Key Features
+
+- 🔹 **Responsive UI** – Optimized for mobile, tablet, and desktop devices
+- 🔹 **Dynamic Calculations** – Automatically computes:
+  - Subject-wise total
+  - Percentage
+  - Grade based on defined criteria
+- 🔹 **User-Friendly Inputs** – Easily enter student names and marks
+- 🔹 **Lightweight & Fast** – Built with HTML, CSS, and vanilla JavaScript (no external dependencies)
+
+---
+
+## 🎯 Use Cases
+
+- Classroom student performance tracking
+- Teacher-made grading tools
+- Training centers, coaching classes, and tuition institutions
+- Developer UI/logic practice
+
+---
+
+## 📊 Grading Criteria
+
+| Percentage Range | Grade  |
+|------------------|--------|
+| 80% - 100%       | A+     |
+| 70% - 79%        | A      |
+| 60% - 69%        | B      |
+| 50% - 59%        | C      |
+| 40% - 49%        | D      |
+| Below 40%        | F      |
+
+---
+
+## 📁 Folder Structure
+
