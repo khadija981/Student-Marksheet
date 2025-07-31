@@ -1,0 +1,95 @@
+body {
+  background-color:rgb(201, 197, 168);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  color: #333;
+}
+
+
+    h1 {
+      text-align: center;
+      color: black;
+      text-shadow:  2px 2px 2px  purple;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: rgb(201, 197, 168);
+      border-radius: 8px;
+      box-shadow: 8px 8px 12px purple;
+      overflow: hidden;
+    }
+   
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+   
+      border: 1px solid black;
+    }
+
+    th {
+      background: black;
+      color:  rgb(201, 197, 168);
+    }
+
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      background:  rgb(201, 197, 168);
+      box-shadow: 2px 2px 2px  purple;
+      border-bottom: 2px solid  rgb(201, 197, 168);
+      font-size: 14px;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: black;
+      box-shadow:2px 2px 2px  purple;
+    }
+
+    .btn {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 25px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+       box-shadow:5px 5px 2px  purple;
+    }
+
+    .btn:hover {
+      background: #00565f;
+    }
+
+    .result-row {
+      background-color: #f9f9f9;
+      font-family: monospace;
+      font-size: 14px;
+    }
+    /* Mobile Responsiveness */
+@media (max-width: 768px) {
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+  }
+}
